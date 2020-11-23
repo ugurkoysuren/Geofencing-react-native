@@ -1,0 +1,252 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.backgroundgeofencing"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/ugur/BackgroundGeofencing/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/ugur/BackgroundGeofencing/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+13-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+14-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.54.0] /home/ugur/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.54.0] /home/ugur/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.hardware.location" />
+16-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:5-65
+16-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:22-62
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:5-79
+17-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-81
+18-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:22-78
+19    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+19-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-89
+19-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:22-86
+20    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+20-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:5-94
+20-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:22-91
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:5-81
+21-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:22-78
+22    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+22-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:5-77
+22-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:22-74
+23    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+23-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-78
+23-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:22-75
+24    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+24-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:5-80
+24-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:22-77
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:5-77
+25-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:22-74
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:17.0.0] /home/ugur/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:17.0.0] /home/ugur/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+29        android:required="true" />
+29-->[com.google.android.gms:play-services-maps:17.0.0] /home/ugur/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+30
+31    <application
+31-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:6:5-28:19
+32        android:name="com.backgroundgeofencing.MainApplication"
+32-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:7:7-38
+33        android:allowBackup="false"
+33-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:11:7-34
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.2.0] /home/ugur/.gradle/caches/transforms-2/files-2.1/1667af20f7c5fbd17b27fd9fd70bfb91/core-1.2.0/AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:9:7-41
+37        android:label="@string/app_name"
+37-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:8:7-39
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:10:7-52
+39        android:theme="@style/AppTheme"
+39-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:12:7-38
+40        android:usesCleartextTraffic="true" >
+40-->/home/ugur/BackgroundGeofencing/android/app/src/debug/AndroidManifest.xml:7:18-53
+41        <activity
+41-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:13:7-23:18
+42            android:name="com.backgroundgeofencing.MainActivity"
+42-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:14:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+43-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:16:9-86
+44            android:label="@string/app_name"
+44-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:15:9-41
+45            android:launchMode="singleTask"
+45-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:17:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:18:9-51
+47            <intent-filter>
+47-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:19:9-22:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:20:13-65
+48-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:20:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:21:13-73
+50-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:21:23-70
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+53-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:24:7-84
+53-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:24:17-81
+54
+55        <meta-data
+55-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:25:7-27:64
+56            android:name="com.google.android.geo.API_KEY"
+56-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:26:7-52
+57            android:value="AIzaSyDZQFXxJOSylal_cGmHXlYpNpIIkb4q478" /> <!-- Services -->
+57-->/home/ugur/BackgroundGeofencing/android/app/src/main/AndroidManifest.xml:27:7-62
+58        <service
+58-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-21:72
+59            android:name="com.eddieowens.services.BoundaryEventJobIntentService"
+59-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-81
+60            android:enabled="true"
+60-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-35
+61            android:exported="true"
+61-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-36
+62            android:permission="android.permission.BIND_JOB_SERVICE" />
+62-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-69
+63        <service android:name="com.eddieowens.services.BoundaryEventHeadlessTaskService" /> <!-- Receivers -->
+63-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-92
+63-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:18-89
+64        <receiver
+64-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-27:38
+65            android:name="com.eddieowens.receivers.BoundaryEventBroadcastReceiver"
+65-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-83
+66            android:enabled="true" />
+66-->[:react-native-boundary] /home/ugur/BackgroundGeofencing/node_modules/react-native-boundary/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-35
+67
+68        <service
+68-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:9-55:19
+69            android:name="com.marianhello.bgloc.sync.SyncService"
+69-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-66
+70            android:exported="true"
+70-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:13-36
+71            android:process=":sync" >
+71-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-36
+72            <intent-filter>
+72-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:13-50:29
+73                <action android:name="android.content.SyncAdapter" />
+73-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:17-70
+73-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:25-67
+74            </intent-filter>
+75
+76            <meta-data
+76-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-54:55
+77                android:name="android.content.SyncAdapter"
+77-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:17-59
+78                android:resource="@xml/syncadapter" />
+78-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:17-52
+79        </service>
+80        <service android:name="com.marianhello.bgloc.sync.AuthenticatorService" >
+80-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:9-64:19
+80-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:18-80
+81            <intent-filter>
+81-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-59:29
+82                <action android:name="android.accounts.AccountAuthenticator" />
+82-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:17-80
+82-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:25-77
+83            </intent-filter>
+84
+85            <meta-data
+85-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-63:57
+86                android:name="android.accounts.AccountAuthenticator"
+86-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:17-69
+87                android:resource="@xml/authenticator" />
+87-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:17-54
+88        </service>
+89
+90        <provider
+90-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:66:9-70:39
+91            android:name="com.marianhello.bgloc.data.provider.LocationContentProvider"
+91-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:67:13-87
+92            android:authorities="@string/mauron85_bgloc_content_authority"
+92-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:68:13-75
+93            android:exported="false"
+93-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:69:13-37
+94            android:syncable="true" />
+94-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:70:13-36
+95
+96        <service
+96-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:72:9-75:40
+97            android:name="com.marianhello.bgloc.service.LocationServiceImpl"
+97-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:73:13-77
+98            android:enabled="true"
+98-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:74:13-35
+99            android:exported="false" />
+99-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:75:13-37
+100        <service
+100-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:76:9-79:40
+101            android:name="com.marianhello.bgloc.react.headless.HeadlessService"
+101-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:77:13-80
+102            android:enabled="true"
+102-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:78:13-35
+103            android:exported="false" />
+103-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:79:13-37
+104
+105        <receiver
+105-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:81:9-88:20
+106            android:name="com.marianhello.bgloc.BootCompletedReceiver"
+106-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:82:13-71
+107            android:enabled="true"
+107-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:83:13-35
+108            android:exported="true" >
+108-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:84:13-36
+109            <intent-filter>
+109-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:85:13-87:29
+110                <action android:name="android.intent.action.BOOT_COMPLETED" />
+110-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:86:17-79
+110-->[:mauron85_react-native-background-geolocation] /home/ugur/BackgroundGeofencing/node_modules/@mauron85/react-native-background-geolocation/android/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:86:25-76
+111            </intent-filter>
+112        </receiver> <!-- Needs to be explicitly declared on P+ -->
+113        <uses-library
+113-->[com.google.android.gms:play-services-maps:17.0.0] /home/ugur/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+114            android:name="org.apache.http.legacy"
+114-->[com.google.android.gms:play-services-maps:17.0.0] /home/ugur/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+115            android:required="false" />
+115-->[com.google.android.gms:play-services-maps:17.0.0] /home/ugur/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+116
+117        <activity
+117-->[com.google.android.gms:play-services-base:17.2.1] /home/ugur/.gradle/caches/transforms-2/files-2.1/056b9a1220e90bc174f62a185df6eb71/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+118            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+118-->[com.google.android.gms:play-services-base:17.2.1] /home/ugur/.gradle/caches/transforms-2/files-2.1/056b9a1220e90bc174f62a185df6eb71/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+119            android:exported="false"
+119-->[com.google.android.gms:play-services-base:17.2.1] /home/ugur/.gradle/caches/transforms-2/files-2.1/056b9a1220e90bc174f62a185df6eb71/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+120            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+120-->[com.google.android.gms:play-services-base:17.2.1] /home/ugur/.gradle/caches/transforms-2/files-2.1/056b9a1220e90bc174f62a185df6eb71/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+121
+122        <meta-data
+122-->[com.google.android.gms:play-services-basement:17.2.1] /home/ugur/.gradle/caches/transforms-2/files-2.1/fca20694a6c64a6998a7b72a66af66a7/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+123            android:name="com.google.android.gms.version"
+123-->[com.google.android.gms:play-services-basement:17.2.1] /home/ugur/.gradle/caches/transforms-2/files-2.1/fca20694a6c64a6998a7b72a66af66a7/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+124            android:value="@integer/google_play_services_version" />
+124-->[com.google.android.gms:play-services-basement:17.2.1] /home/ugur/.gradle/caches/transforms-2/files-2.1/fca20694a6c64a6998a7b72a66af66a7/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+125
+126        <activity
+126-->[com.intentfilter:android-permissions:0.1.7] /home/ugur/.gradle/caches/transforms-2/files-2.1/657698a33bb657480b0bff3c743be2ba/jetified-android-permissions-0.1.7/AndroidManifest.xml:12:9-15:59
+127            android:name="com.intentfilter.androidpermissions.PermissionsActivity"
+127-->[com.intentfilter:android-permissions:0.1.7] /home/ugur/.gradle/caches/transforms-2/files-2.1/657698a33bb657480b0bff3c743be2ba/jetified-android-permissions-0.1.7/AndroidManifest.xml:13:13-83
+128            android:excludeFromRecents="true"
+128-->[com.intentfilter:android-permissions:0.1.7] /home/ugur/.gradle/caches/transforms-2/files-2.1/657698a33bb657480b0bff3c743be2ba/jetified-android-permissions-0.1.7/AndroidManifest.xml:14:13-46
+129            android:theme="@style/AppTheme.Transparent" />
+129-->[com.intentfilter:android-permissions:0.1.7] /home/ugur/.gradle/caches/transforms-2/files-2.1/657698a33bb657480b0bff3c743be2ba/jetified-android-permissions-0.1.7/AndroidManifest.xml:15:13-56
+130    </application>
+131
+132</manifest>
